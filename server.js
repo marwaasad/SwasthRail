@@ -12,7 +12,6 @@ app.use(cors());
 app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({ extended: false }));
 
-// Serve the index.html file when accessing the root URL "/"
 app.get("/", (req, res) => {
     res.sendFile(__dirname + "/public/index.html");
 });
@@ -24,8 +23,6 @@ app.get("/blockchain", (req, res) => {
 
 app.get('/patient-record/:patientId', (req, res) => {
     const patientId = req.params.patientId;
-
-    // Use the updated method to get the record by patientId
     const record = blockchain.getRecordByPatientId(patientId);
 
     if (!record) {
@@ -35,27 +32,25 @@ app.get('/patient-record/:patientId', (req, res) => {
     res.json({ record });
 });
 
-
 app.post('/patient-record', (req, res) => {
     const { patientID, doctorName, appointmentDate, description } = req.body;
 
-    // Check if all fields are present
     if (!patientID || !doctorName || !appointmentDate || !description) {
         return res.status(400).json({ error: "All fields are required!" });
     }
 
     const newRecord = {
-        patientId: patientID,      // Mapping the incoming fields to your model
+        patientId: patientID,      
         doctor: doctorName,
         date: appointmentDate,
         description,
         timestamp: Date.now(),
     };
 
-    // Step 1: Add the new record to the blockchain
+    // Adding the new record to the blockchain
     const blockIndex = blockchain.addRecord(newRecord);
 
-    // Step 2: Mine a new block immediately after adding the record
+    // Mining a new block immediately after adding the record
     const lastBlock = blockchain.getLastBlock();
     const previousBlockHash = lastBlock["hash"];
     const currentBlockData = {
@@ -76,9 +71,6 @@ app.post('/patient-record', (req, res) => {
     });
 });
 
-
-
-// Start the server
 const PORT = 3000;
 app.listen(PORT, () => {
     console.log(`Server running on http://localhost:${PORT}`);
