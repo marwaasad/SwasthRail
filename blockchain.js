@@ -8,7 +8,7 @@ function Blockchain() {
     this.createNewBlock(100, '0', '0');
 }
 
-// Create a new block
+// new block
 Blockchain.prototype.createNewBlock = function(nonce, previousBlockHash, hash) {
     const newBlock = {
         index: this.chain.length + 1, // Block index starts from 1
@@ -25,7 +25,7 @@ Blockchain.prototype.createNewBlock = function(nonce, previousBlockHash, hash) {
     return newBlock;
 };
 
-// Get the last block
+// Getting the last block
 Blockchain.prototype.getLastBlock = function() {
     return this.chain[this.chain.length - 1];
 };
@@ -72,8 +72,7 @@ Blockchain.prototype.getRecordByPatientId = function(patientId) {
 };
 
 
-
-// For testing or debugging: Print the entire blockchain
+// For debugging: printing the entire blockchain
 Blockchain.prototype.getChain = function() {
     return this.chain;
 };
