@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+  <link rel="stylesheet" href="oxy.css" />
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+  <title>Ambulance Service</title>
+  <style>
+    .cont .card {
+      color: white;
+      border: 5px solid rgb(3, 70, 146);
+    }
+
+    .cont .card:hover {
+      background: linear-gradient(white, rgb(0, 78, 109));
+    }
+  </style>
+</head>
+
+<body>
+  <section class="Ambulance-section">
+    <div class="container">
+      <div class="row" style="background-color: rgba(2, 105, 131, 0.863)">
+        <h2 style="
+              margin-top: 1em;
+              font-family: 'Merriweather', serif;
+              font-size: 80px;
+              text-align: center;
+              text-shadow: 1px 1px 1px red, 2px 2px 1px red;
+              color: white;
+              border: 5px solid blue;
+            ">
+          Ambulance Services
+        </h2>
+      </div>
+      <div class="cont">
+        <div class="row">
+          <div class="col">
+            <div class="card">
+              <div class="imgBx">
+                <img src="ambulance1.jpg" width="300px" height="200px" alt="ambulance" />
+              </div>
+              <div class="content">
+                <h2>Critical Care Ambulance Service Gwalior,</h2>
+
+                <p>454 Sainik Colony, Sikandar, Kampoo, Gwalior - 474001</p>
+
+                <div class="icon-box">
+                  <div class="side-text">+91 8982580688</div>
+                  <div class="icon">
+                    <em class="fas fa-phone"></em>
+                  </div>
+                </div>
+
+                <div class="icon-box">
+                  <div class="side-text">
+                    <a href="https://www.justdial.com/Gwalior/Critical-Care-Ambulance-Service-Gwalior-Kampoo/9999PX751-X751-190307134527-N1C2_BZDET?xid=R3dhbGlvciBBbWJ1bGFuY2UgU2VydmljZXM=">Kampoo,Gwalior</a>
+                  </div>
+                  <div class="icon">
+                    <em class="fas fa-map-marker-alt"></em>
+                  </div>
+                </div>
+
+                <div class="icon-box">
+                  <div class="side-text">
+                    <a href="https://www.justdial.com/Gwalior/Critical-Care-Ambulance-Service-Gwalior-Kampoo/9999PX751-X751-190307134527-N1C2_BZDET?xid=R3dhbGlvciBBbWJ1bGFuY2UgU2VydmljZXM=">Link for Website</a>
+                  </div>
+                  <div class="icon">
+                    <em class="fab fa-edge"></em>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card" style="width: 300px">
+            <div class="imgBx">
+              <img src="ambulanc.jpg" width="300px" height="200px" alt="Ambulance" />
+            </div>
+            <div class="content">
+              <h2>Just Call Ambulance Service</h2>
+              <p>Lashkar, Gwalior - 474001</p>
+
+              <div class="icon-box">
+                <div class="side-text">+91 6264463399</div>
+                <div class="icon">
+                  <em class="fas fa-phone"></em>
+                </div>
+              </div>
+
+              <div class="icon-box">
+                <div class="side-text">
+                  <p>
+                    <a href="https://www.justdial.com/Gwalior/Just-Call-Ambulance-Service-Lashkar/9999PX751-X751-191014142029-G1R8_BZDET?xid=R3dhbGlvciBBbWJ1bGFuY2UgU2VydmljZXM=>Kampoo, Gwalior">Lashkar,Gwalior</a>
+                  </p>
+                </div>
+                <div class="icon">
+                  <em class="fas fa-map-marker-alt"></em>
+                </div>
+              </div>
+
+              <div class="icon-box">
+                <div class="side-text">
+                  <a href="https://www.justdial.com/Gwalior/Just-Call-Ambulance-Service-Lashkar/9999PX751-X751-191014142029-G1R8_BZDET?xid=R3dhbGlvciBBbWJ1bGFuY2UgU2VydmljZXM=>Kampoo, Gwalior">Link for Website</a>
+                </div>
+                <div class="icon">
+                  <em class="fab fa-edge"></em>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card">
+            <div class="imgBx">
+              <img src="ambulance3.jpg" width="300px" height="200px" alt="Ambulance" />
+            </div>
+            <div class="content">
+              <h2>New Chambal Ambulance Service</h2>
+              <p>
+                D7 Vivek Vihar Colony, Mahar Parisar, Lashkar City, Gwalior -
+                474009
+              </p>
+
+              <div class="icon-box">
+                <div class="side-text">+91 7947445570</div>
+                <div class="icon">
+                  <em class="fas fa-phone"></em>
+                </div>
+              </div>
+
+              <div class="icon-box">
+                <div class="side-text">
+                  <a href="https://www.justdial.com/Gwalior/New-Chambal-Ambulance-Service-Lashkar-City/9999PX751-X751-201020184017-I7W6_BZDET?xid=R3dhbGlvciBBbWJ1bGFuY2UgU2VydmljZXM=">Lashkar, Gwalior</a>
+                </div>
+                <div class="icon">
+                  <em class="fas fa-map-marker-alt"></em>
+                </div>
+              </div>
+
+              <div class="icon-box">
+                <div class="side-text">
+                  <a href="https://www.justdial.com/Gwalior/New-Chambal-Ambulance-Service-Lashkar-City/9999PX751-X751-201020184017-I7W6_BZDET?xid=R3dhbGlvciBBbWJ1bGFuY2UgU2VydmljZXM=">Link for Website</a>
+                </div>
+                <div class="icon">
+                  <em class="fab fa-edge"></em>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col">
+          <div class="card" style="width: 300px">
+            <div class="imgBx">
+              <img src="ambulance4.jpg" width="300px" height="200px" alt="ambulance" />
+            </div>
+            <div class="content">
+              <h2>Kalyan Hospital</h2>
+              <p>Hospital Road, Lashkar, Gwalior - 474001</p>
+
+              <div class="icon-box">
+                <div class="side-text">9827586243</div>
+                <div class="icon">
+                  <em class="fas fa-phone"></em>
+                </div>
+              </div>
+
+              <div class="icon-box">
+                <div class="side-text">
+                  <a href="https://www.justdial.com/Gwalior/Kalyan-Hospital-Lashkar/9999PX751-X751-130525172310-H5N4_BZDET?xid=R3dhbGlvciBBbWJ1bGFuY2UgU2VydmljZXM=">
+                    Lashkar, Gwalior
+                  </a>
+                </div>
+                <div class="icon">
+                  <em class="fas fa-map-marker-alt"></em>
+                </div>
+              </div>
+
+              <div class="icon-box">
+                <div class="side-text">
+                  <a href="https://www.justdial.com/Gwalior/Kalyan-Hospital-Lashkar/9999PX751-X751-130525172310-H5N4_BZDET?xid=R3dhbGlvciBBbWJ1bGFuY2UgU2VydmljZXM=">Link for Website</a>
+                </div>
+                <div class="icon">
+                  <em class="fab fa-edge"></em>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col">
+          <div class="card">
+            <div class="imgBx">
+              <img src="ambulance2.jpg" width="300px" height="200px" alt="ambulance" />
+            </div>
+            <div class="content">
+              <h2>Konark Hospital</h2>
+              <p>
+                Shinde Ki Chhawani, Gwalior - 474001, Opposite Ram Bagh Colony
+              </p>
+
+              <div class="icon-box">
+                <div class="side-text">+91 0751 2634022</div>
+                <div class="icon">
+                  <em class="fas fa-phone"></em>
+                </div>
+              </div>
+
+              <div class="icon-box">
+                <div class="side-text">
+                  <a href="https://www.justdial.com/Gwalior/Konark-Hospital-Opposite-Ram-Bagh-Colony-Shinde-Ki-Chhawani/9999PX751-X751-120719161453-X2N3_BZDET?xid=R3dhbGlvciBBbWJ1bGFuY2UgU2VydmljZXM=">Shinde ki Chhawni</a>
+                </div>
+                <div class="icon">
+                  <em class="fas fa-map-marker-alt"></em>
+                </div>
+              </div>
+
+              <div class="icon-box">
+                <div class="side-text">
+                  <a href="https://www.justdial.com/Gwalior/Konark-Hospital-Opposite-Ram-Bagh-Colony-Shinde-Ki-Chhawani/9999PX751-X751-120719161453-X2N3_BZDET?xid=R3dhbGlvciBBbWJ1bGFuY2UgU2VydmljZXM=">Link for Website</a>
+                </div>
+                <div class="icon">
+                  <em class="fab fa-edge"></em>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+</body>
+
+</html>
