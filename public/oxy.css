@@ -1,0 +1,165 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+body {
+  display: flex;
+  justify-content: center;
+  /* background: #16384c; */
+}
+.cont {
+  position: relative;
+  width: 100vw;
+  height: 70vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.cont .card {
+  position: relative;
+  max-width: 300px;
+  height: 215px;
+  background: #fff;
+  margin: 30px 10px;
+  padding: 20px 15px;
+  display: flex;
+  flex-direction: column;
+  border: 2px solid rgb(238, 120, 10);
+  /* background-color: rgba(227, 252, 6, 0.76); */
+  transition: 0.3s ease-in-out;
+}
+.hed .h2 {
+  margin-left: auto;
+}
+
+.cont .card:hover {
+  height: 420px;
+  background: linear-gradient(red, yellow, orange);
+}
+.cont .card .imgBx {
+  position: relative;
+  width: 260px;
+  height: 260px;
+  top: -60px;
+  left: 20px;
+  /* box-shadow: 0 5px 20px rgba(0, 0, 0, 0.2); */
+  z-index: 1;
+  border: 2px;
+  display: flex;
+}
+.cont .card .imgBx img {
+  max-width: 100%;
+  border-radius: 8px;
+}
+.cont .card .content {
+  position: relative;
+  margin-top: -140px;
+  padding: 10px 15px;
+  text-align: center;
+  color: #111;
+  visibility: hidden;
+  opacity: 0;
+  transition: 0.3s ease-in-out;
+}
+.cont .card:hover .content {
+  visibility: visible;
+  opacity: 1;
+  margin-top: -40px;
+  transition-delay: 0.3s;
+}
+.content p {
+  margin-top: 7px;
+}
+/* .sidebar{
+    height: 335px;
+    width: 60px;
+    background: #fff;
+    border-radius: 5px;
+    position: absolute;
+    top: 50%;
+    right: 50px;
+    transform: translateY(-50%);
+} */
+.icon-box {
+  width: 50px;
+  height: 50px;
+  display: flex;
+  justify-content: flex-end;
+  margin: 15px auto;
+}
+.side-text {
+  min-width: 0px;
+  height: 100%;
+  background: #f44336;
+  line-height: 0;
+  color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 5px 0 0 5px;
+  overflow: hidden;
+  transition: 0.5s;
+}
+.icon {
+  min-width: 50px;
+  height: 100%;
+  border-radius: 5px;
+  cursor: pointer;
+  text-align: right;
+}
+.icon .fa {
+  font-size: 25px;
+  color: #f44336;
+  line-height: 50px;
+}
+.icon-box:hover .icon {
+  color: #f44336;
+}
+.icon-box:hover .icon .fa {
+  color: #fff;
+}
+.icon-box:hover .side-text {
+  min-width: 130px;
+}
+
+.icon .fa-phone {
+  color: blue;
+  font-size: 25px;
+}
+.icon .fa-edge {
+  color: rgb(36, 8, 189);
+  font-size: 25px;
+}
+.icon .fa-map-marker-alt {
+  font-size: 25px;
+}
+.oxygen-section {
+  width: 100vw;
+  height: 100vh;
+  background: url("https://media-exp1.licdn.com/dms/image/C4D1BAQHk1fau6aM1NQ/company-background_10000/0/1563993963280?e=2159024400&v=beta&t=yZ9xitonC5yyI0JprX20MMWXxmNY4TIj1L9d1glXMfs")
+    no-repeat;
+  background-size: cover;
+}
+.Ambulance-section {
+  width: 100vw;
+  height: 100vh;
+  background: url("https://mocah.org/uploads/posts/2001836-sun-grass-clowd-woods-sunny-sunbeams-beautiful-clouds-asphalt-leaves-splendor-green-path-beauty-sunrise-way-morning-road-forest-lovely-view-sunlight-spring-sky-trees-tree-sunrays-rays-peaceful-.jpg")
+    no-repeat;
+  background-size: cover;
+}
+.medicine-section {
+  width: 100vw;
+  height: 100vh;
+  background: url("https://thumbs.dreamstime.com/b/emergency-medical-services-concept-doctor-hand-holding-tablet-icon-network-connection-virtual-screen-interface-modern-220644995.jpg")
+    no-repeat;
+  background-size: cover;
+}
+.bloodbank-section {
+  width: 100vw;
+  height: 100vh;
+  background: url("https://cdn.pixabay.com/photo/2018/03/25/22/54/background-3261090_960_720.jpg")
+    no-repeat;
+  background-size: cover;
+}
